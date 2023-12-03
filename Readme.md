@@ -13,7 +13,7 @@ Table of Contents
 
 Getting Started
 
-To run the Weather Application, simply open the index.html file in a web browser. Click the "Fetch Data" button to navigate to the weather.html page, where you can view your current location, a map, and detailed weather information.
+To run the Weather Application, open the index.html file in a web browser. Click the "Fetch Data" button to navigate to the weather.html page, where you can view your current location, a map, and detailed weather information.
 Usage
 
     Fetch Data Button: Clicking the "Fetch Data" button on the index page redirects you to the weather page.
@@ -23,7 +23,7 @@ Usage
 Folder Structure
 
     index.html: The main page with the "Fetch Data" button.
-    weather.html: The page displaying detailed weather information.
+    weather.html: The page displays detailed weather information.
     style.css: Styles for the index page.
     weather.css: Styles for the weather page.
     script.js: JavaScript file containing common functions and page-specific functionality.
@@ -41,8 +41,15 @@ JavaScript Functions
 
 API Integration
 
-The Weather Application integrates with the OpenWeatherMap API to fetch real-time weather data based on the user's location. Replace the API key in the fetchWeatherData function with your own OpenWeatherMap API key.
+The Weather Application integrates with the OpenWeatherMap API to fetch real-time weather data based on the user's location. Replace the API key in the fetchWeatherData function with your own OpenWeatherMap API key?
 Contributing
 
 Contributions to the Weather Application are welcome! Feel free to open issues or pull requests to suggest improvements, report bugs, or add new features.
+
+![image](https://github.com/sainath161/Weather-API/assets/71361447/bc5a6ac2-6d7d-49cf-9485-f150895b07d0)
+
+![image](https://github.com/sainath161/Weather-API/assets/71361447/063b2513-8c08-41bc-806b-8924a925c57a)
+
+![image](https://github.com/sainath161/Weather-API/assets/71361447/d491fdd7-34ae-4cd0-8ad0-1b7ac4787116)
+
 
