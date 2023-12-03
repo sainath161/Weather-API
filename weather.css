@@ -11,13 +11,13 @@ button {
     font-size: 16px;
 }
 
-.details{
+.details {
     padding: 10px;
     margin: 10px;
     color: #ffffff;
 }
 
-p{
+p {
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
 }
@@ -32,7 +32,8 @@ p{
     flex-wrap: wrap;
     gap: 10px;
     margin: 10px;
-    padding: 10px; /* Added padding to provide some space */
+    padding: 10px;
+    /* Added padding to provide some space */
 }
 
 .location-info-item {
@@ -55,7 +56,8 @@ p{
 }
 
 .weather-item {
-    flex: 0 50% 50%; /* Each item takes equal space in the row */
+    flex: 0 50% 50%;
+    /* Each item takes equal space in the row */
     background-color: #360369;
     color: #ffffff;
     padding: 20px;
@@ -67,11 +69,12 @@ p{
     font-weight: bold;
 }
 
-.weather-item1{
-    flex: 0 100%; /* Each item takes equal space in the row */
+.weather-item1 {
+    flex: 0 100%;
+    /* Each item takes equal space in the row */
     color: #360369;
     padding: 10px;
-    
+
 }
 
 .hidden {
