@@ -104,6 +104,7 @@ function displayWeatherData(data) {
         const currentTime = currentDate.toLocaleTimeString();
 
         weatherDataElement.innerHTML = `
+            <h1 class="weather-item1">Your Weather Data</h1>
             <div class="weather-item">Location: ${location}</div>
             <div class="weather-item">Wind Speed: ${windSpeed} kmph</div>
             <div class="weather-item">Humidity: ${humidity}%</div>
