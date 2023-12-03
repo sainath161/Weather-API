@@ -76,7 +76,7 @@ if (locationInfoElement && mapElement && weatherDataElement) {
 function fetchWeatherData(latitude, longitude) {
     // Replace the following API key with your Weatherstack API key
     const apiKey = 'f356044ebb1fd76e30c491e112eb5093';
-    const apiUrl = `https://api.weatherstack.com/current?access_key=${apiKey}&query=${latitude},${longitude}`;
+    const apiUrl = `http://api.weatherstack.com/current?access_key=${apiKey}&query=${latitude},${longitude}`;
 
     fetch(apiUrl)
         .then(response => response.json())
@@ -104,7 +104,6 @@ function displayWeatherData(data) {
         const currentTime = currentDate.toLocaleTimeString();
 
         weatherDataElement.innerHTML = `
-            <h1 class="weather-item1">Your Weather Data</h1>
             <div class="weather-item">Location: ${location}</div>
             <div class="weather-item">Wind Speed: ${windSpeed} kmph</div>
             <div class="weather-item">Humidity: ${humidity}%</div>
