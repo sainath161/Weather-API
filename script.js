@@ -44,7 +44,7 @@ if (locationInfoElement && mapElement && weatherDataElement) {
     function showMap(position) {
         const latitude = position.coords.latitude;
         const longitude = position.coords.longitude;
-    
+
         mapElement.innerHTML = `<iframe
             width="100%"
             height="500"
@@ -54,14 +54,14 @@ if (locationInfoElement && mapElement && weatherDataElement) {
             marginwidth="0"
             src="https://maps.google.com/maps?q=${latitude},${longitude}&output=embed">
         </iframe>`;
-    
+
         // Update latitude and longitude in the locationInfo element
         document.getElementById('latitude').textContent = `Latitude: ${latitude.toFixed(6)}`;
         document.getElementById('longitude').textContent = `Longitude: ${longitude.toFixed(6)}`;
-    
+
         // Show the locationInfo element
         document.getElementById('locationInfo').classList.remove('hidden');
-    
+
         // Fetch weather data
         fetchWeatherData(latitude, longitude);
     }
